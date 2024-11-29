@@ -1,0 +1,115 @@
+/* Header Styles */
+header {
+  background-color: #222922;
+  height: 250px;
+}
+
+.header-nav ul {
+  display: flex;
+  margin: 0 187px;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+  background-color: #75b511;
+  color: white;
+  font-size: 12px;
+}
+
+.header-nav ul li a:hover,
+.header-nav ul li a.active {
+  background-color: #dc7b3a;
+}
+
+/* Title Styles */
+.title {
+  height: 200px;
+  margin: 0px 187px;
+  color: white;
+}
+.title h1 {
+  font: bold 60px Arial, Helvetica, sans-serif;
+}
+.title h1 small {
+  font: 20px Arial, Helvetica, sans-serif;
+  padding-left: 130px;
+}
+
+/* Main Content Styles */
+.main-content {
+  display: flex;
+}
+.main-content .article-description {
+  width: 630px;
+  margin-left: 190px;
+  margin-right: 20px;
+}
+.box .article-description .article {
+  margin: 0;
+  padding: 0 16px 0 0;
+  float: left;
+  width: 297px;
+}
+.main-content .rigth-side {
+  width: 236px;
+}
+.row {
+  display: flex;
+}
+/* Black Background Styles */
+.black-background {
+  background-color: #222922;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  margin: 0 187px;
+  color: white;
+  padding-bottom: 40px;
+}
+.container h2 {
+  color: white;
+}
+
+.image-gallery {
+  width: 750px;
+}
+
+.black-background .container .article img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.black-background .container #about {
+  width: 600px;
+  margin-right: 20px;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  background-color: #212121;
+  color: white;
+  border-top: 1px solid #505050;
+}
+.copyright {
+  margin: 0 187px;
+  padding: 20px 0;
+}
+.footer-nav {
+  margin-left: 80px;
+  padding: 20px 0;
+}
+.footer-nav li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.footer-nav li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}

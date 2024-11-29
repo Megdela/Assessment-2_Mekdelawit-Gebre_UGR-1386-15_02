@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading Styles */
+h2 {
+  color: #75b511;
+  margin-bottom: 17px;
+  margin-top: 34px;
+}
+
+p {
+  font: normal 12px/1.8em Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+span {
+  margin: 20px 0px;
+  padding: 10px;
+}
+/* Link Styles */
+a:any-link {
+  color: #75b511;
+}
+a.orange-link {
+  color: #dc7b3a;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+}
+
+/* Form Element Styles */
+ol li {
+  display: block;
+  clear: both;
+}
+ol li label {
+  display: block;
+  margin: 0;
+  padding: 16px 0 0 0;
+  font: 12px Arial, sans-serif;
+  color: #666565;
+}
+
+ol li input.text {
+  width: 480px;
+  border: 1px solid #c0c0c0;
+  margin: 2px 0;
+  padding: 5px 2px;
+  height: 16px;
+  background: #fff;
+}
+ol li textarea {
+  width: 480px;
+  border: 1px solid #c0c0c0;
+  margin: 2px 0;
+  padding: 2px;
+  background: #fff;
+}
+ol li button {
+  margin: 16px 0 0 0;
+}
+
+/* Specific Classes for Reuse */
+.title span {
+  color: #dc7b3a;
+  margin-bottom: -25px;
+}
+
+/* Sidebar Link Styles */
+.sidebar-menu a:any-link {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 6px;
+  font-size: 10px;
+}
+
+/* Sponsor List Styles */
+.sponsors-list li {
+  margin-bottom: 10px;
+}
+.sponsors-list li p {
+  color: rgb(88, 93, 96);
+}
+
+/* Footer Link Styles */
+.footer-nav li a:hover {
+  color: #75b511;
+  text-decoration: underline;
+}
+.footer-nav li a.active {
+  color: #75b511;
+}
+.footer-nav li a:active {
+  color: #75b511;
+}
+
+/* Image Styles */
+.main-content img {
+  border: 1px solid #dedede;
+  padding: 5px;
+}
+.container img {
+  border: 1px solid white;
+}
+.image-gallery img,
+#about img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#about img {
+  float: left;
+  margin-right: 15px;
+}
+
+/* Utility Classes */
+.info {
+  margin-top: 20px;
+}
